@@ -6,3 +6,7 @@ from django.shortcuts import render
 def index(request):
     
     return render(request, "index.html", {'test':'text'})
+
+
+def wrongQRCode(request):
+    return render(request, "wrongQRCode.html")
